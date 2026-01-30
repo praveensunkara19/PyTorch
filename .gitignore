@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+rnn/_pycache__
+computation_graph
+data/cifar-10-batches-py
+data/hymenoptera_data
+data/cifar-10-python.tar.gz
+data/MNIST/raw

@@ -1,0 +1,71 @@
+From Machine Learning to Deep Learning (AI) is all about calculations(function, matrix, tensors).
+
+ML:
+* Machine Learning models do the predictions form the given inputs, based on the model trained from the data(Features and Target).
+* Representation:y = mX + c, i.e y = f(X,θ)
+y - predicted value
+X - features
+Training = finding parameters θ (weights) that minimize a loss function(MSE)
+    Linear Regression → matrix multiplication
+    SVM → dot products
+    KNN → distance calculations
+
+DL:
+* Deep Learning model(i.e CNNs, RNNs etc..) are structured with linear_layers + Relu + Hidden_layers + softmax_fn with fully connected layers or some recurrent .
+* Initially this models is assigned with some random weights then during traing these weights are adjusted with given learning_rate(controls step_size).
+* All this done during the traing with assigned epochs and iterations of the given batch_size from the dataset.
+* Representation: X --Linear--> Wx + b -- Activation(Relu) --> Linear --> Softmax/Sigmoid --> fully_connected --> y
+* Process:
+    1. Forward Pass     -> predictions
+    2. Loss computation -> i.e crossentropy or binary crossentropy
+    3. Backpropagation  -> compute gradient
+    4. Optimization     -> Updates weights using mthods. (SGD, Adam, RMSProp)
+
+CV:
+* Coming to computer vision(smoothin, filtering, corner detection), given Images(gray,RGB) are Convolved with the small Kernels(windows) i.e usualy 3*3 or 5*5.
+* These small kernels are the weights and this kernels learns via backprogation.
+* This kernels detects Patterns i.e: Edges, Corners, Textures, Gradients.
+
+
+
+Models with Pytorch Framework:
+
+pytorch_intro.ipynb
+overview_yt.ipynb
+* intro 
+* tensors
+* element-wise and matrix algebric expressions
+* add_(), add, torch.sub_(), torch.sub, mul_(), div_()
+
+
+backprogation.ipynb
+* gradient and backprogation
+* traingin linear-regression with numpy 
+* training linear-regression with torch
+* Custom model
+
+linear_regresion.ipynb
+* numpy to torch tensors
+* trainin
+* plots
+
+dataset_batch.ipynb
+* dataset
+* dataloder
+* batchs
+* data iterations - packaging and unpacking
+
+
+dataset_transform.ipynb
+* transormations
+* Custom transormations
+* compose
+
+
+softmax_crossentropy.ipynb
+* softmax 
+* crossentropy
+
+activation.ipynb
+* activation function defing 
+* and calling from nn
