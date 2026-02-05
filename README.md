@@ -2,6 +2,7 @@
 In this repo I have created basic to moderate important concepts of **PyTorch frameworks** that necessary for **Neural Networks** with python!
 
 For every model I have showed **Training**, **Validation** steps and **logs** in console, tested the **custom dataset** test images using model.predict()
+### For digit classification --> feedforward.ipynb
 
 Highly useful for revision of pytorch concepts from basic to moderate concepts in quick time.
 
